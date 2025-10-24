@@ -1,16 +1,27 @@
-# midterm_req_3
+# Part C: Practical Task — Greeting App
 
-A new Flutter project.
+## Introduction
 
-## Getting Started
+This Flutter application allows the user to type their name into a **TextField**.  
+When the user presses the **“Say Hello”** button, the app displays a personalized greeting message:  
+**“Hello, [Name]!”** below the button.
 
-This project is a starting point for a Flutter application.
+---
 
-A few resources to get you started if this is your first Flutter project:
+## How the App Works
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+### **Single Screen App**
+- The app begins with the `main()` function, which runs the `MyApp` widget.
+- The `MyApp` widget loads the home screen — `GreetingApp` — which is a **StatefulWidget**.
+- The `TextField` lets the user input their name.
+- When the **“Say Hello”** button is pressed:
+    - The app retrieves the text from the input field.
+    - It then updates the screen to display a greeting message using **setState()**.
+- If the input is empty, the app asks the user to enter their name instead of displaying a greeting.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+---
+
+- **Developed by:** Janlee Estoy
+- **Course:** Computer Engineering
+- **Part C:** Practical Task — Greeting App
+
